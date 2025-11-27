@@ -50,7 +50,11 @@ img {
     cursor: pointer;
 }
 
-
+.container div {
+  width:300px;
+  height: 500px;
+  margin:auto;
+}
 
 .container-bottom {
     position: fixed;
@@ -75,6 +79,7 @@ img {
     padding: 10px;
 }
     
+
 
 
 
