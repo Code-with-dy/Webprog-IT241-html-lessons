@@ -50,3 +50,8 @@ img {
     cursor: pointer;
 }
 
+div {
+  width:300px;
+  margin:auto;
+}
+
