@@ -50,12 +50,12 @@ img {
     cursor: pointer;
 }
 
-div {
+.container div {
   width:300px;
   margin:auto;
 }
 
-.fixed-bottom {
+.container-bottom {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -64,10 +64,11 @@ div {
     box-shadow: 0 -5px 10px rgba(255, 0, 0, 0.5);
 }
 
-.fixed-bottom .container {
+.container-bottom .container {
     justify-content: center;
 }
     
+
 
 
 
