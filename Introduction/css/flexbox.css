@@ -64,4 +64,10 @@ div {
     box-shadow: 0 -5px 10px rgba(255, 0, 0, 0.5);
 }
 
+.fixed-bottom .container {
+    justify-content: center;
+}
+    
+
+
 
