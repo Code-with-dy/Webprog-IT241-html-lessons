@@ -3,6 +3,9 @@ body {
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 h1 {
@@ -32,16 +35,18 @@ img {
 .container div {
     background-color: #330000;
     border: 1px solid red;
-    width: 80px;
-    height: 80px;
-    margin: 5px;
+    width: 300px; 
+    height: auto;
+    margin: 10px; 
     color: white;
-    font-size: 25px;
+    font-size: 18px;
     display: flex;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
-
     box-shadow: 0 0 15px red;
+    padding: 15px; 
+    box-sizing: border-box;
 }
 
 .container div:hover {
@@ -50,40 +55,29 @@ img {
     cursor: pointer;
 }
 
-.container div {
-  width:300px;
-  height: 500px;
-  margin:auto;
-}
-
 .container-bottom {
     position: fixed;
     bottom: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
+    left: 0;
+    right: 0;
+    background-color: black;
     padding: 10px 0;
+    text-align: center;
     box-shadow: 0 -5px 10px rgba(255, 0, 0, 0.5);
-    z-index: 1000;
-}
+    z-index: 1000; 
 
 .container-bottom .container {
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
 }
 
 .container-bottom .container div {
-    width: 200px;
-    height: 100px;
-    margin: 5px;
+    width: 200px; 
+    height: auto;
+    margin: 10px; 
     font-size: 16px;
     padding: 10px;
+    box-sizing: border-box;
 }
-    
-
-
-
-
-
-
-
-
