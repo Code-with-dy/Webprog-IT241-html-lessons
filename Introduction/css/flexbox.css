@@ -62,10 +62,19 @@ img {
     text-align: center;
     padding: 10px 0;
     box-shadow: 0 -5px 10px rgba(255, 0, 0, 0.5);
+    z-index: 1000;
 }
 
 .container-bottom .container {
     justify-content: center;
+}
+
+.container-bottom .container div {
+    width: 200px;
+    height: auto;
+    margin: 5px;
+    font-size: 16px;
+    padding: 10px;
 }
     
 
