@@ -27,6 +27,13 @@ body {
 h1 {
     color: red;
     text-shadow: 2px 2px 10px red;
+    
+    
+}
+
+h2 {
+    color: white;
+    text-shadow: 2px 2px 10px white;
 }
 
 p {
