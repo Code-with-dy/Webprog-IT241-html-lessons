@@ -1,7 +1,7 @@
 .container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: dodgerblue;
+  background-color: black;
   padding: 10px;
 }
 .container div {
@@ -82,12 +82,7 @@ img {
     box-shadow: 0 -5px 10px rgba(255, 0, 0, 0.5);
     z-index: 1000; 
 
-.container-bottom .container {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; 
-}
+
 
 .container-bottom .container div {
     width: 200px; 
