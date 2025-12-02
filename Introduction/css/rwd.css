@@ -5,6 +5,8 @@
 body {
   font-family: "Lucida Sans", sans-serif;
   font-size: 17px;
+
+  background-color: gray;
 }
  
 .grid-container {
