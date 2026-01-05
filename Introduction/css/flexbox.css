@@ -55,30 +55,7 @@ img {
     cursor: pointer;
 }
 
-.container-bottom {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: black;
-    padding: 10px 0;
-    text-align: center;
-    box-shadow: 0 -5px 10px rgba(255, 0, 0, 0.5);
-    z-index: 1000; 
 
-.container-bottom .container {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; 
-}
 
-.container-bottom .container div {
-    width: 200px; 
-    height: auto;
-    margin: 10px; 
-    font-size: 16px;
-    padding: 10px;
-    box-sizing: border-box;
-}
+
 
