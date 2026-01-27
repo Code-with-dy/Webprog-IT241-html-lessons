@@ -1,26 +1,20 @@
+function switchTab(tabId, element) {
+  // 1. Hide all sections
+  const tabs = document.querySelectorAll('.tab');
+  tabs.forEach(tab => tab.classList.add('hidden'));
 
-function switchTab(tabId, btn) {
-  document.querySelectorAll(".tab").forEach(tab => {
-    tab.classList.add("hidden");
-  });
-  document.getElementById(tabId).classList.remove("hidden");
+  // 2. Show the selected section
+  const activeTab = document.getElementById(tabId);
+  if (activeTab) {
+    activeTab.classList.remove('hidden');
+  }
 
-  document.querySelectorAll(".nav-link").forEach(b => {
-    b.classList.remove("active");
-  });
-  btn.classList.add("active");
-}
+  // 3. Remove 'active' class from all nav buttons
+  const navLinks = document.querySelectorAll('.nav-link');
+  navLinks.forEach(link => link.classList.remove('active'));
 
-function toggleTheme() {
-  document.body.classList.toggle("light");
-}
-
-function selectProgram(card) {
-  document.querySelectorAll(".interactive").forEach(c => {
-    c.classList.remove("selected");
-  });
-  card.classList.add("selected");
-
-  document.getElementById("feedback").innerText =
-    `You selected: ${card.querySelector("h3").innerText}`;
+  // 4. Add 'active' class to the clicked button
+  if (element) {
+    element.classList.add('active');
+  }
 }
